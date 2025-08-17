@@ -1,2 +1,2 @@
 # ckd-prediction-ml
-Early Prediction of Chronic Kidney Disease
+Early prediction of Chronic Kidney Disease
