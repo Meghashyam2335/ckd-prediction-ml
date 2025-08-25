@@ -9,7 +9,7 @@ import pickle
 pd.pandas.set_option('display.max_columns', None)
 
 # Reading data:
-data = pd.read_csv('c:/Users/thris/Downloads/chronickidneydisease.csv')
+data = pd.read_csv('c:/Users/msban/Downloads/chronickidneydisease.csv')
 
 # Dropping unneccsary feature :
 data = data.drop('id', axis=1)
@@ -81,4 +81,5 @@ rd_clf.fit(X_train, y_train)
 
 # Creating a pickle file for the classifier
 filename = 'ckd.pkl'
+
 pickle.dump(rd_clf, open(filename, 'wb'))
